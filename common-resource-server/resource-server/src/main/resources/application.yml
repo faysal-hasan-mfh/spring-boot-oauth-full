@@ -1,0 +1,27 @@
+server:
+  port: 2222
+
+spring:
+  application:
+    name: resource-server
+  security:
+    oauth2:
+      resourceserver:
+        opaquetoken:
+          introspection-uri: http://localhost:8100/oauth/check_token
+#        jwt:
+#          issuer-uri: http://localhost:8100
+
+logging:
+  level:
+    org.springframework.security: TRACE
+
+#server.port=9091
+#security.oauth2.resource.token-info-uri=http://localhost:9092/uaa/oauth/check_token
+#security.oauth2.resource.token-type=Bearer
+#security.oauth2.client.client-id=test
+#security.oauth2.client.client-secret=testsecret
+##security.oauth2.client.grant-type=client_credentials
+##security.oauth2.client.scope=write
+#spring.security.user.name=none
+#spring.security.user.password=none
