@@ -10,3 +10,6 @@ data-postman-var-1="df20a78b87461495082e"></div>
     ));
   }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
 </script>
+
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/df20a78b87461495082e)
